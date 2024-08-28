@@ -18,4 +18,5 @@ You can modify the following table to put your results:
 
 |Model Name|RMSE t+1|RMSE t+2|RMSE t+3|RMSE t+4|MAPE t+1|MAPE t+2|MAPE t+3|MAPE t+4|
 |-|-|-|-|-|-|-|-|-|
+|Ridge Regression (input:44 previous, output: 4 next)|85.9996|125.568|154.075|183.728|0.00808|0.01161|0.01444|0.01731|
 | | | | | | | | | |
