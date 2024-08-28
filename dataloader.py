@@ -30,17 +30,18 @@ class TRAILDataset(Dataset):
         self.column_to_normalize = deepcopy(column_to_normalize)
 
         if self.column_to_predict in self.column_to_normalize:
-            self.column_to_normalize.remove(column_to_predict)
+            self.column_to_normalize = self.column_to_normalize.remove(column_to_predict)
 
         # Normalization
-        rows_to_scale = self.data[self.column_to_normalize]
-        if scaler is None and len(self.column_to_normalize) > 0:
-            scaler = MinMaxScaler()
-            scaler = scaler.fit(rows_to_scale)
         self.scaler = scaler
-        scaled_rows = self.scaler.transform(rows_to_scale)
-
-        self.data[self.column_to_normalize] = scaled_rows
+        if self.column_to_normalize is not None:
+            rows_to_scale = self.data[self.column_to_normalize]
+            if self.scaler is None:
+                scaler = MinMaxScaler()
+                scaler = scaler.fit(rows_to_scale)
+            self.scaler = scaler
+            scaled_rows = self.scaler.transform(rows_to_scale)
+            self.data[self.column_to_normalize] = scaled_rows
 
         row_to_scale = np.array(self.data[self.column_to_predict])
         if (predict_scaler is None) and normalize_predict_row:
@@ -66,7 +67,7 @@ class TRAILDataset(Dataset):
         total_load_tensor = torch.tensor(total_load_df.values, dtype=torch.float32)
 
         # Return both tensors
-        return slice_tensor, total_load_tensor
+        return slice_tensor.transpose_(0, 1), total_load_tensor
 
     def get_scaler(self):
         return self.scaler
