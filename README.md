@@ -9,7 +9,7 @@ The output should be placed in a `csv` file structured as:
 |...|...|
 |2974| |
 
-Then, the metrics will be evaluated as RMSE, MAPE, MAE and MSE. Those metrics will be computed separately on samples at minutes 00, 15, 30 and 45.
+Then, the metrics will be evaluated as RMSE and MAPE. Those metrics will be computed separately on samples at minutes 00, 15, 30 and 45.
 In order to get the measurements, execute the (not yet provided) evaluation script as
 `python3 evaluate.py your_file.csv`
 You can modify the following table to put your results:
