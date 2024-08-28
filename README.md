@@ -1,6 +1,6 @@
 # Total Load Forecasting
 ## Evaluation Procedure
-The samples $49573$ up to $52548$ have to be predicted. Those correspond roughly to the last month, starting at midnight and ending at 23:45.
+The samples $335428$ up to $338403$ have to be predicted. Those correspond roughly to the last month, starting at midnight and ending at 23:45.
 The output should be placed in a `csv` file structured as:
 |Sample|Prediction|
 |-|-|
