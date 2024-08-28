@@ -8,7 +8,8 @@ The output should be placed in a `csv` file structured as:
 |1| |
 |...|...|
 |2974| |
-*separated by comas$.
+
+*separated by comas*.
 
 Then, the metrics will be evaluated as RMSE and MAPE. Those metrics will be computed separately on samples at minutes 00, 15, 30 and 45.
 In order to get the measurements, execute the (not yet provided) evaluation script as
