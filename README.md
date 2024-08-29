@@ -20,4 +20,5 @@ You can modify the following table to put your results:
 |-|-|-|-|-|-|-|-|-|
 |[Linear Model](LinearBaseline.ipynb)|85.2385|129.439|160.070|193.590|0.00805|0.01204|0.01499|0.01800|
 |[Ridge Model](Ridge.ipynb)|85.4773|128.964|159.194|192.266|0.00806|0.01197|0.01489|0.01788|
+|[Random Forest](RandomForest.ipynb)|86.4348|121.865|147.196|173.907|0.00819|0.01132|0.01372|0.01624|
 | | | | | | | | | |
