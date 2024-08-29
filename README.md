@@ -19,4 +19,5 @@ You can modify the following table to put your results:
 |Model Name|RMSE t+1|RMSE t+2|RMSE t+3|RMSE t+4|MAPE t+1|MAPE t+2|MAPE t+3|MAPE t+4|
 |-|-|-|-|-|-|-|-|-|
 |[Linear Model](LinearBaseline.ipynb)|85.2385|129.439|160.070|193.590|0.00805|0.01204|0.01499|0.01800|
+|[Ridge Model](Ridge.ipynb)|85.4773|128.964|159.194|192.266|0.00806|0.01197|0.01489|0.01788|
 | | | | | | | | | |
