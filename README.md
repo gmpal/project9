@@ -19,5 +19,5 @@ You can modify the following table to put your results:
 |Model Name|RMSE t+1|RMSE t+2|RMSE t+3|RMSE t+4|MAPE t+1|MAPE t+2|MAPE t+3|MAPE t+4|
 |-|-|-|-|-|-|-|-|-|
 |Ridge Regression|85.3518|125.382|153.853|183.430|0.00806|0.01165|0.01444|0.01731|
-|Random Forest Regressor|85.5035|120.858|144.367|168.491|0.00808|0.01125|0.01342|0.01580|
+|Random Forest Regressor (no HPT)|85.5035|120.858|144.367|168.491|0.00808|0.01125|0.01342|0.01580|
 | | | | | | | | | |
