@@ -31,4 +31,5 @@ You can modify the following table to put your results:
 One month errors for Great Britain (last month of 2023)
 |Model Name|RMSE t+1|RMSE t+2|RMSE t+3|RMSE t+4|MAPE t+1|MAPE t+2|MAPE t+3|MAPE t+4|
 |-|-|-|-|-|-|-|-|-|
-|[Extra Trees](Models_Pascal/EnsembleGB.ipynb)|459.78825|715.86959|1113.03923|1497.24006|0.01144|0.01897|0.03036|0.04033
+|([Linear Model](Models_Pascal/GBEvaluation.ipynb)|534.63676|1137.63607|1660.70263|2077.06687|0.01481|0.03140|0.04657|0.05902|
+|[Extra Trees](Models_Pascal/GBEvaluation.ipynb)|459.78825|715.86959|1113.03923|1497.24006|0.01144|0.01897|0.03036|0.04033|
