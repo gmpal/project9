@@ -28,3 +28,7 @@ You can modify the following table to put your results:
 |[MLP](DeepLearningForecastingWithTotalLoadOnly.ipynb)|129.140|162.836|192.684|227.441|0.01251|0.01576|0.01885|0.02253|
 | | | | | | | | | |
 
+One month errors for Great Britain (last month of 2023)
+|Model Name|RMSE t+1|RMSE t+2|RMSE t+3|RMSE t+4|MAPE t+1|MAPE t+2|MAPE t+3|MAPE t+4|
+|-|-|-|-|-|-|-|-|-|
+|[Extra Trees](Models_Pascal/EnsembleGB.ipynb)|459.78825|715.86959|1113.03923|1497.24006|0.01144|0.01897|0.03036|0.04033
