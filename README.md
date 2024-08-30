@@ -25,4 +25,6 @@ You can modify the following table to put your results:
 |Arima(1,2,2) 1day refitting|94.8876|151.737|196.648|249.593|0.00879|0.01398|0.01845|0.02397|
 |Arima(1,2,2) 1week no refitting |94.0714|150.129|192.768|244.266|0.00873|0.01367|0.01778|0.02314|
 |[Extra Trees](Models_Pascal/Ensemble.ipynb)|84.2570|116.050|139.287|161.741|0.00809|0.01085|0.01296|0.01510|
+|[MLP](DeepLearningForecastingWithTotalLoadOnly.ipynb)|129.140|162.836|192.684|227.441|0.01251|0.01576|0.01885|0.02253|
 | | | | | | | | | |
+
