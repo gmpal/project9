@@ -24,5 +24,5 @@ You can modify the following table to put your results:
 |[XGBoost](Models_Pascal/Ensemble.ipynb)|86.9875|121.567|147.213|171.274|0.00830|0.01136|0.01374|0.01606|
 |Arima(1,2,2) 1day refitting|94.8876|151.737|196.648|249.593|0.00879|0.01398|0.01845|0.02397|
 |Arima(1,2,2) 1week no refitting |94.0714|150.129|192.768|244.266|0.00873|0.01367|0.01778|0.02314|
-|[Extra Trees](Models_Pascal/Ensemble.ipynb)|84.4739|116.210|139.626|161.983|0.00810|0.01089|0.01302|0.01510|
+|[Extra Trees](Models_Pascal/Ensemble.ipynb)|84.2570|116.050|139.287|161.741|0.00809|0.01085|0.01296|0.01510|
 | | | | | | | | | |
