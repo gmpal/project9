@@ -26,7 +26,6 @@ You can modify the following table to put your results:
 |Arima(1,2,2) 1week no refitting |94.0714|150.129|192.768|244.266|0.00873|0.01367|0.01778|0.02314|
 |[Extra Trees](Models_Pascal/Ensemble.ipynb)|84.2570|116.050|139.287|161.741|0.00809|0.01085|0.01296|0.01510|
 |[MLP](DeepLearningForecastingWithTotalLoadOnly.ipynb)|129.140|162.836|192.684|227.441|0.01251|0.01576|0.01885|0.02253|
-|Model Name|RMSE t+1|RMSE t+2|RMSE t+3|RMSE t+4|MAPE t+1|MAPE t+2|MAPE t+3|MAPE t+4|
 |RLS|88.3534|138.603|176.399|218.273|0.00826|0.01282|0.01650|0.02057|
 |[LightGBM](LightGBM_Lisbon3_2024.ipynb)|70.22|117.02|157.97|188.55|0.0065|0.0111|0.0149|0.0117|
 
