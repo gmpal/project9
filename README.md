@@ -26,6 +26,9 @@ You can modify the following table to put your results:
 |Arima(1,2,2) 1week no refitting |94.0714|150.129|192.768|244.266|0.00873|0.01367|0.01778|0.02314|
 |[Extra Trees](Models_Pascal/Ensemble.ipynb)|84.2570|116.050|139.287|161.741|0.00809|0.01085|0.01296|0.01510|
 |[MLP](DeepLearningForecastingWithTotalLoadOnly.ipynb)|129.140|162.836|192.684|227.441|0.01251|0.01576|0.01885|0.02253|
+|RLS|88.3534|138.603|176.399|218.273|0.00826|0.01282|0.01650|0.02057|
+|[LightGBM](LightGBM_Lisbon3_2024.ipynb)|72.70|109.69|147.09|178.94|0.0068|0.0103|0.0137|0.0169|
+
 | | | | | | | | | |
 
 One month errors for Great Britain (last month of 2023)
