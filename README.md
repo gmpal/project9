@@ -16,18 +16,19 @@ In order to get the measurements, execute the (not yet provided) evaluation scri
 `python3 evaluate.py your_file.csv`
 You can modify the following table to put your results:
 
-|Model Name|RMSE t+1|RMSE t+2|RMSE t+3|RMSE t+4|MAPE t+1|MAPE t+2|MAPE t+3|MAPE t+4|
-|-|-|-|-|-|-|-|-|-|
-|[Linear Model](Models_Pascal/Linear.ipynb)|85.2385|129.439|160.070|193.590|0.00805|0.01204|0.01499|0.01800|
-|[Ridge Model](Models_Pascal/Linear.ipynb)|85.4773|128.964|159.194|192.266|0.00806|0.01197|0.01489|0.01788|
-|[Random Forest](Models_Pascal/Ensemble.ipynb)|86.4348|121.865|147.196|173.907|0.00819|0.01132|0.01372|0.01624|
-|[XGBoost](Models_Pascal/Ensemble.ipynb)|86.9875|121.567|147.213|171.274|0.00830|0.01136|0.01374|0.01606|
-|Arima(1,2,2) 1day refitting|94.8876|151.737|196.648|249.593|0.00879|0.01398|0.01845|0.02397|
-|Arima(1,2,2) 1week no refitting |94.0714|150.129|192.768|244.266|0.00873|0.01367|0.01778|0.02314|
-|[Extra Trees](Models_Pascal/Ensemble.ipynb)|84.2570|116.050|139.287|161.741|0.00809|0.01085|0.01296|0.01510|
-|[MLP](Models_Pascal/MLP_Tuning.ipynb)|88.8970|132.369|162.625|196.921|0.00849|0.01240|0.01551|0.01879|
-|RLS|88.3534|138.603|176.399|218.273|0.00826|0.01282|0.01650|0.02057|
-|[LightGBM](LightGBM_Lisbon3_2024.ipynb)|72.70|109.69|147.09|178.94|0.0068|0.0103|0.0137|0.0169|
+| Model Name                                    |RMSE t+1|RMSE t+2|RMSE t+3|RMSE t+4|MAPE t+1|MAPE t+2|MAPE t+3|MAPE t+4|
+|-----------------------------------------------|-|-|-|-|-|-|-|-|
+| [Linear Model](Models_Pascal/Linear.ipynb)    |85.2385|129.439|160.070|193.590|0.00805|0.01204|0.01499|0.01800|
+| [Ridge Model](Models_Pascal/Linear.ipynb)     |85.4773|128.964|159.194|192.266|0.00806|0.01197|0.01489|0.01788|
+| [Random Forest](Models_Pascal/Ensemble.ipynb) |86.4348|121.865|147.196|173.907|0.00819|0.01132|0.01372|0.01624|
+| [XGBoost](Models_Pascal/Ensemble.ipynb)       |86.9875|121.567|147.213|171.274|0.00830|0.01136|0.01374|0.01606|
+| Arima(1,2,2) 1day refitting                   |94.8876|151.737|196.648|249.593|0.00879|0.01398|0.01845|0.02397|
+| Arima(1,2,2) 1week no refitting               |94.0714|150.129|192.768|244.266|0.00873|0.01367|0.01778|0.02314|
+| [Extra Trees](Models_Pascal/Ensemble.ipynb)   |84.2570|116.050|139.287|161.741|0.00809|0.01085|0.01296|0.01510|
+| [MLP](Models_Pascal/MLP_Tuning.ipynb)         |88.8970|132.369|162.625|196.921|0.00849|0.01240|0.01551|0.01879|
+| RLS                                           |88.3534|138.603|176.399|218.273|0.00826|0.01282|0.01650|0.02057|
+| [LightGBM](LightGBM_Lisbon3_2024.ipynb)       |72.70|109.69|147.09|178.94|0.0068|0.0103|0.0137|0.0169|
+| LSTCN                                         |93.3717|149.023|190.526|237.091|0.00893|0.01411|0.01834|0.02326|
 
 | | | | | | | | | |
 
