@@ -187,7 +187,7 @@ and they are:
 
 ### *Hyperopt configuration*
 
-- Iterations (number of hyperparameters configurations evaluated): 75
+- Iterations (number of hyperparameter configurations evaluated): 75
 - gamma: 0.25
 - candidates per iteration: 24
 
