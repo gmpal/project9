@@ -24,7 +24,7 @@ You can modify the following table to put your results:
 | [XGBoost](Models_Pascal/Ensemble.ipynb)       | 92.3735  | 125.339  | 150.321   | 173.336   | 0.00888  | 0.01169  | 0.01389   | 0.01609   |
 | Arima(1,2,2) 1day refitting                   | 94.8876  | 151.737  | 196.648   | 249.593   | 0.00879  | 0.01398  | 0.01845   | 0.02397   |
 | Arima(1,2,2) 1week no refitting               | 94.0714  | 150.129  | 192.768   | 244.266   | 0.00873  | 0.01367  | 0.01778   | 0.02314   |
-| [Extra Trees](Models_Pascal/Ensemble.ipynb)   | 84.4788  | 115.733  | `139.186` | `162.136` | 0.00814  | 0.01087  | `0.01304` | `0.01515` |
+| [Extra Trees](Models_Pascal/Ensemble.ipynb)   | 84.4788  | 115.733  | 139.186 | 162.136 | 0.00814  | 0.01087  | 0.01304 | 0.01515 |
 | [MLP](Models_Pascal/MLP_Tuning.ipynb)         | 85.6119  | 125.439  | 156.732   | 184.247   | 0.00801  | 0.01178  | 0.01471   | 0.01730   |
 | [RNN](DeepLearningForecastingRNNs.ipynb)      | 97.1521  | 158.245  | 194.166   | 228.928   | 0.00947  | 0.01543  | 0.01865   | 0.02160   |
 | [LSTM](DeepLearningForecastingRNNs.ipynb)     | 117.666  | 152.433  | 184.008   | 222.276   | 0.01143  | 0.01452  | 0.01757   | 0.02132   |
@@ -33,6 +33,7 @@ You can modify the following table to put your results:
 | [LightGBM](LightGBM_Lisbon3_2024.ipynb)       | `72.70`  | `109.69` | 147.09    | 178.94    | `0.0068` | `0.0103` | 0.0137    | 0.0169    |
 | LSTCN                                         | 93.3717  | 149.023  | 190.526   | 237.091   | 0.00893  | 0.01411  | 0.01834   | 0.02326   |
 | LightGBM with extra features                  | 97.4491  | 147.111  | 181.713   | 210.000   | 0.00918  | 0.01375  | 0.01726   | 0.02009   |
+| Linear&Non-Linear Neural Network              | 80.7293  | 115.498  | `136.73`  | `158.628` |
 
 | | | | | | | | | |
 
